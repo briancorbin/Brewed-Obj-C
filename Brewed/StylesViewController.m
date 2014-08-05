@@ -85,10 +85,10 @@
     
     styleLbl.text = currentStyle.style;
     OGlbl.text = [currentStyle.OG stringValue];
-    FGlbl.text = @"NA";
-    IBUlbl.text = @"NA";
-    Llbl.text = @"NA";
-    ABVlbl.text = @"NA";
+    FGlbl.text = [currentStyle.FG stringValue];
+    IBUlbl.text = [currentStyle.IBU stringValue];
+    Llbl.text = [currentStyle.L stringValue];
+    ABVlbl.text = [currentStyle.ABV stringValue];
     
     return cell;
 }

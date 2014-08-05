@@ -51,7 +51,7 @@
 		E8566EF719900A82008B7D00 /* BrewedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewedTests.m; sourceTree = "<group>"; };
 		E8566F0119900AF1008B7D00 /* CAStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStyles.h; sourceTree = "<group>"; };
 		E8566F0219900AF1008B7D00 /* CAStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAStyles.m; sourceTree = "<group>"; };
-		E8566F0419900B11008B7D00 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../Downloads/Parse.framework; sourceTree = "<group>"; };
+		E8566F0419900B11008B7D00 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../Downloads/Parse.framework; sourceTree = "<group>"; };
 		E8566F0619900B1A008B7D00 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E8566F0819900B20008B7D00 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E8566F0A19900B24008B7D00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,7 +100,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8566ED219900A81008B7D00 = {
+		E80937191991103800F23402 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E8566F1819900B45008B7D00 /* SystemConfiguration.framework */,
@@ -114,6 +114,13 @@
 				E8566F0819900B20008B7D00 /* CFNetwork.framework */,
 				E8566F0619900B1A008B7D00 /* AudioToolbox.framework */,
 				E8566F0419900B11008B7D00 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8566ED219900A81008B7D00 = {
+			isa = PBXGroup;
+			children = (
 				E8566EDD19900A82008B7D00 /* Brewed */,
 				E8566EF419900A82008B7D00 /* BrewedTests */,
 				E8566EDC19900A82008B7D00 /* Products */,
@@ -152,6 +159,7 @@
 		E8566EDE19900A82008B7D00 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E80937191991103800F23402 /* Frameworks */,
 				E8566EDF19900A82008B7D00 /* Info.plist */,
 				E8566EE019900A82008B7D00 /* main.m */,
 			);
@@ -465,6 +473,7 @@
 				E8566EFD19900A82008B7D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8566EFE19900A82008B7D00 /* Build configuration list for PBXNativeTarget "BrewedTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +482,7 @@
 				E8566F0019900A82008B7D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
